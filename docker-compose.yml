@@ -1,7 +1,8 @@
 
 services:
   focuzacademy:
-    image: wordpress:latest
+    image: focuzacademy-wordpress
+    build: .
     container_name: focuzacademy-wordpress
     restart: always
     ports:
